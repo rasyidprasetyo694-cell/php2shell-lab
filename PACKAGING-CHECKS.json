@@ -1,0 +1,17 @@
+{
+  "package_date": "2026-10-27",
+  "scope": "GitHub source distribution; no GitHub upload; no Docker/PoC run",
+  "core_files_identical_to_original": 11,
+  "ui_assets_and_launchers_identical_to_verified_lab": true,
+  "upstream_attribution_preserved": true,
+  "gitignore_positive_cases": 15,
+  "gitignore_kept_source_cases": 8,
+  "markdown_local_links_checked": 34,
+  "text_line_endings": "LF",
+  "credential_signature_hits": 0,
+  "workstation_path_hits": 0,
+  "runtime_artifacts_in_out": 0,
+  "docker_runtime_tested": false,
+  "ui_verification_record": "VERIFIKASI-UI.json",
+  "source_file_count_including_manifest": 46
+}

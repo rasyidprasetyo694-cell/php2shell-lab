@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "scope": "static UI served through local file response interception; PHP runtime and exploit not run",
+  "checks": [
+    "Desktop page, disclosure, images and width OK",
+    "All three category filters and reset OK",
+    "Article modal, Escape and return focus OK",
+    "Gallery modal and FAQ expansion OK",
+    "Mobile width, menu, filtering and modal OK"
+  ],
+  "consoleErrors": [],
+  "externalRequests": []
+}

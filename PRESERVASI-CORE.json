@@ -1,0 +1,77 @@
+{
+  "scope": "UI-only rebrand; static preservation checks; exploit not run",
+  "core_identical_files": 11,
+  "php_header_prolog_identical": true,
+  "upstream_readme_preserved": true,
+  "all_internal_anchors_exist": true,
+  "all_referenced_assets_exist_and_are_local": true,
+  "docker_runtime_tested": false,
+  "core_files": [
+    {
+      "file": "poc-cve-2026-109618.py",
+      "source_sha256": "c5009b50dbbb3ca6218bb86e7586bce84959e6cf9650da65137894e71d36764f",
+      "copy_sha256": "c5009b50dbbb3ca6218bb86e7586bce84959e6cf9650da65137894e71d36764f",
+      "identical": true
+    },
+    {
+      "file": "docker/offsets.py",
+      "source_sha256": "95c2d5e4b10158baeec986eda337ce2d465b7cd62582236d19ee74909d65898e",
+      "copy_sha256": "95c2d5e4b10158baeec986eda337ce2d465b7cd62582236d19ee74909d65898e",
+      "identical": true
+    },
+    {
+      "file": "profiles/php-8.4.26-bookworm-amd64.json",
+      "source_sha256": "7a86ce1137bb10ec6772cecf8820e4512c915143e47213be1997e7a2980ce20f",
+      "copy_sha256": "7a86ce1137bb10ec6772cecf8820e4512c915143e47213be1997e7a2980ce20f",
+      "identical": true
+    },
+    {
+      "file": "lab/compose.yaml",
+      "source_sha256": "bbd32c636a28b375e43194680491843932d05f1c40740f58e02dae713adb551b",
+      "copy_sha256": "bbd32c636a28b375e43194680491843932d05f1c40740f58e02dae713adb551b",
+      "identical": true
+    },
+    {
+      "file": "lab/config/vulnerable.ini",
+      "source_sha256": "8bb5178e1e61c8012b1576c779676d73d7d8532b8ad5dd76ba4b13ecfffb42be",
+      "copy_sha256": "8bb5178e1e61c8012b1576c779676d73d7d8532b8ad5dd76ba4b13ecfffb42be",
+      "identical": true
+    },
+    {
+      "file": "lab/config/mitigated.ini",
+      "source_sha256": "b0527482ea0af30b5404d44d869cae103190aad1f072c2c504383daa6a568b26",
+      "copy_sha256": "b0527482ea0af30b5404d44d869cae103190aad1f072c2c504383daa6a568b26",
+      "identical": true
+    },
+    {
+      "file": "lab/config/apache-single-worker.conf",
+      "source_sha256": "c9afc061e8774758dc994f11294f7b9d677dc0129fc082546bc5a0572212391a",
+      "copy_sha256": "c9afc061e8774758dc994f11294f7b9d677dc0129fc082546bc5a0572212391a",
+      "identical": true
+    },
+    {
+      "file": "lab/config/servername.conf",
+      "source_sha256": "d5a1176c20efa3a8602384812b364a28aff1ce23a7c273ad310d574feb03bc16",
+      "copy_sha256": "d5a1176c20efa3a8602384812b364a28aff1ce23a7c273ad310d574feb03bc16",
+      "identical": true
+    },
+    {
+      "file": "lab/www/probe.php",
+      "source_sha256": "1b97dc5177b5c4f4a53023a6c72629ce360e466f627d98cdf1d75113450faf23",
+      "copy_sha256": "1b97dc5177b5c4f4a53023a6c72629ce360e466f627d98cdf1d75113450faf23",
+      "identical": true
+    },
+    {
+      "file": "lab/www/shell.php",
+      "source_sha256": "3650db3e7029c79f69e6d111a498d9a109d3121685536390afc918fe9952b3dd",
+      "copy_sha256": "3650db3e7029c79f69e6d111a498d9a109d3121685536390afc918fe9952b3dd",
+      "identical": true
+    },
+    {
+      "file": "lab/www/status.php",
+      "source_sha256": "ba71a34d308cabb4f0ffabbe1602045c0bdd40b98adbb79c3fb7dc62bc815bd6",
+      "copy_sha256": "ba71a34d308cabb4f0ffabbe1602045c0bdd40b98adbb79c3fb7dc62bc815bd6",
+      "identical": true
+    }
+  ]
+}
